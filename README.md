@@ -19,4 +19,4 @@ Equation Drag And Drop Solver
 https://dnd-tiles-backend.herokuapp.com/
 
 #### Frontend
-https://app.netlify.com/sites/animated-chimera-997fd8/overview
+https://animated-chimera-997fd8.netlify.app/
