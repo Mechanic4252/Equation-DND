@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(215, 236, 255);
+}
+.tiles-frame{
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+    height: 130px;
+    background-color:azure;
+}
+.tile{
+    text-align: center;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-color:rgb(122, 122, 122);
+    border-radius:10px;
+    transition:transform 0.5s;
+}
+.innerText{
+    color: aliceblue;
+    padding: 15px;
+}
+.blank{
+    pointer-events: none;
+    background-color: azure;
+}
+.tile:hover{
+    transform:scale(1.08);
+    cursor:grab;
+    box-shadow: -1px 1px 1px 1px;
+}
+.btn{
+    border: 0px;
+    height:80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.add{    
+    background-color:rgb(94, 215, 110);
+}
+.remove{
+    background-color:rgb(245, 127, 127);
+}
+.dark{
+    color:black;
+}
+.operator{
+    background-color: rgb(72, 109, 255);
+}
+.equation{
+    background-color: #6ed670;
+}
+.equation:hover{
+    transform:scale(1);
+}
+.cancel{
+    position:absolute;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #cfc2b9;
+}
+
+.submitbtn{
+    display: flex;
+    justify-content: center;
+}
+.last-btn{
+    margin:auto;
+    background-color: #2c8673;
+    margin:10px;
+    height:32px;
+    width: 200px;
+    border:0px;
+    border-radius: 20px;
+}
+.hint{
+    background-color: rgb(237, 255, 146);
+}
